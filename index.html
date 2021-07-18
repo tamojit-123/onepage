@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<title>Static website</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<style>
+  body {
+    font-family: "Roboto", Serif;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    font-family: "Roboto", Serif;
+    letter-spacing: 5px;
+  }
+</style>
+
+<body>
+
+  <!-- Navbar (sit on top) -->
+  <div class="w3-top">
+    <div class="w3-bar w3-white w3-padding w3-card" style="letter-spacing:4px;">
+      <a href="#home" class="w3-bar-item w3-button">Computer</a>
+      <!-- Right-sided navbar links. Hide them on small screens -->
+      <div class="w3-right w3-hide-small">
+        <a href="#about" class="w3-bar-item w3-button">About</a>
+        <a href="#menu" class="w3-bar-item w3-button">Menu</a>
+        <a href="#contact" class="w3-bar-item w3-button">Contact</a>
+      </div>
+    </div>
+  </div>
+
+  <!-- Header -->
+  <header class="w3-display-container w3-content w3-wide" style="max-width:1600px;min-width:500px" id="home">
+    <img class="w3-image" src="https://www.business.com/images/content/5ca/3e1aa5a215e8a458bb313/1500-0-"
+      alt="Hamburger Catering" width="1600" height="800">
+    <div class="w3-display-bottomleft w3-padding-large w3-opacity">
+      <h1 class="w3-xxlarge">Computer</h1>
+    </div>
+  </header>
+
+  <!-- Page content -->
+  <div class="w3-content" style="max-width:1100px">
+
+    <!-- About Section -->
+    <div class="w3-row w3-padding-64" id="about">
+      <div class="w3-col m6 w3-padding-large w3-hide-small">
+        <img src="https://upload.wikimedia.org/wikipedia/commons/e/e5/ENIAC-changing_a_tube.jpg"
+          class="w3-round w3-image w3-opacity-min" alt="Table Setting" width="600" height="750">
+      </div>
+
+      <div class="w3-col m6 w3-padding-large">
+        <h1 class="w3-center">About Computer</h1><br>
+        <h5 class="w3-center">1833 and 1871</h5>
+        <p class="w3-large">A computer is a machine that can be programmed to carry out sequences of arithmetic or
+          logical operations automatically. Modern computers can perform generic sets of operations known as programs.
+          These programs enable computers to perform a wide range of tasks. A computer system is a "complete" computer
+          that includes the hardware, operating system (main software), and peripheral equipment needed and used for
+          "full" operation. This term may also refer to a group of computers that are linked and function together, such
+          as a computer network or computer cluster.
+
+          A broad range of industrial and consumer products use computers as control systems. Simple special-purpose
+          devices like microwave ovens and remote controls are included, as are factory devices like industrial robots
+          and computer-aided design, as well as general-purpose devices like personal computers and mobile devices like
+          smartphones. Computers power the Internet, which links hundreds of millions of other computers and users.
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Menu Section -->
+    <div class="w3-row w3-padding-64" id="menu">
+      <div class="w3-col l6 w3-padding-large">
+        <h1 class="w3-center">Types Of Computers</h1><br>
+        <h4>Supercomputer</h4>
+        <p class="w3-text-grey">Supercomputers are the fastest and the most expensive computers. These huge computers are used to solve very complex science and engineering problems.</p><br>
+
+        <h4>Mainframe</h4>
+        <p class="w3-text-grey">Mainframe (colloquially, "big iron") computers are similar to supercomputers in many aspects</p><br>
+
+        <h4>Server Computer
+        </h4>
+        <p class="w3-text-grey">A server is a central computer that contains collections of data and programs</p><br>
+
+        <h4>Workstation Computer</h4>
+        <p class="w3-text-grey">Workstations are high-end, expensive computers that are made for more complex procedures and are intended for one user at a time.</p><br>
+
+        <h4>Blueberry Pancakes</h4>
+        <p class="w3-text-grey">With syrup, butter and lots of berries 8.50</p>
+      </div>
+
+      <div class="w3-col l6 w3-padding-large">
+        <img src="https://meetingtomorrow.com/wp-content/uploads/2019/09/8BF79EAA-C291-890F-3B4303804F13173B.jpg" class="w3-round w3-image w3-opacity-min" alt="Menu" style="width:100%">
+      </div>
+    </div>
+
+    <hr>
+
+    <!-- Contact Section -->
+    <div class="w3-container w3-padding-64" id="contact">
+      <h1>Contact</h1><br>
+      <form action="/action_page.php" target="_blank">
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Name" required name="Name"></p>
+        <p><input class="w3-input w3-padding-16" type="number" placeholder="How many people" required name="People"></p>
+        <p><input class="w3-input w3-padding-16" type="datetime-local" placeholder="Date and time" required name="date"
+            value="2020-11-16T20:00"></p>
+        <p><input class="w3-input w3-padding-16" type="text" placeholder="Message \ Special requirements" required
+            name="Message"></p>
+        <p><button class="w3-button w3-light-grey w3-section" type="submit">SEND MESSAGE</button></p>
+      </form>
+    </div>
+
+    <!-- End page content -->
+  </div>
+
+  <!-- Footer -->
+  <footer class="w3-center w3-light-grey w3-padding-32">
+  </footer>
+
+</body>
+
+</html>
